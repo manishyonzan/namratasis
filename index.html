@@ -1,0 +1,396 @@
+<html>
+
+<head>
+    <title>My Web Page</title>
+    <link href="https://unpkg.com/tailwindcss@1.9.6/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="box.css">
+    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="location.css">
+    <link rel="stylesheet" href="footer.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <div class="hero-section">
+
+        <div class="navbar">
+            <!-- <div style="border: 1px solid black;"
+                class="top-0 py-1 lg:py-2 w-full bg-transparent lg:relative z-50 dark:bg-light">
+                <nav style="border: 1px solid black;"
+                    class="z-10 sticky top-0 left-0 right-0 max-w-4xl xl:max-w-6xl mx-auto px-5 py-2.5 lg:border-none lg:py-4">
+                    <div class="flex items-center justify-between">
+                        <button>
+                            <div class="flex items-center space-x-2">
+                                <h2 class="text-black dark:text-white font-bold text-2xl">Namrata.co</h2>
+                            </div>
+                        </button>
+                        <div class="hidden lg:block">
+                            <ul class="flex space-x-10 text-base font-bold text-black/60 dark:text-white">
+                                <li
+                                    class="hover:underline hover:underline-offset-4 hover:w-fit transition-all duration-100 ease-linear">
+                                    <a href="#">Home</a>
+                                </li>
+                                <li
+                                    class="hover:underline hover:underline-offset-4 hover:w-fit transition-all duration-100 ease-linear">
+                                    <a href="#">Our services</a>
+                                </li>
+                                <li
+                                    class="hover:underline hover:underline-offset-4 hover:w-fit transition-all duration-100 ease-linear">
+                                    <a href="#">About</a>
+                                </li>
+                                <li
+                                    class="hover:underline hover:underline-offset-4 hover:w-fit transition-all duration-100 ease-linear">
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="hidden lg:flex lg:items-center gap-x-2">
+                            <button
+                                class="flex items-center text-black dark:text-white justify-center px-6 py-2.5 font-semibold">Sign
+                                up</button>
+                            <button
+                                class=" btn-primary flex items-center justify-center rounded-md text-white px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200">Login</button>
+                        </div>
+                        <div class="flex items-center justify-center lg:hidden">
+                            <button class="focus:outline-none text-slate-200 dark:text-white"><svg stroke="currentColor"
+                                    fill="currentColor" stroke-width="0" viewBox="0 0 20 20" aria-hidden="true"
+                                    class="text-2xl text-slate-800 dark:text-white focus:outline-none active:scale-110 active:text-red-500"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                                        clip-rule="evenodd"></path>
+                                </svg></button>
+                        </div>
+                    </div>
+                </nav>
+            </div>  -->
+
+            <nav>
+                <div class="nav-brand">
+                    <h2 class="dark:text-white font-bold text-2xl">Namrata.co</h2>
+                </div>
+
+
+
+                <div class="nav-links">
+                    <ul class="flex space-x-10 text-base font-bold dark:text-white">
+                        <li class=" ">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class=" ">
+                            <a href="#">Our services</a>
+                        </li>
+                        <li class=" ">
+                            <a href="#">About</a>
+                        </li>
+                        <li class=" ">
+                            <a href="#">Contact</a>
+                        </li>
+                </div>
+
+                <div class="nav-cta">
+                    <button style="padding: 1rem; font-size: medium;" class="">Sign
+                        up</button>
+                    <button class=" nav-signup">Login</button>
+
+                </div>
+
+
+                <!-- hamburger menu -->
+                <div class="nav-hamburger">
+                    <button class=""><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20"
+                            aria-hidden="true"
+                            class="text-2xl text-slate-800 dark:text-white focus:outline-none active:scale-110 active:text-red-500"
+                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                        </svg></button>
+                </div>
+
+            </nav>
+        </div>
+
+        <div class="header">
+
+
+            <div class="header-hero">
+
+                <div class="header-hero--left">
+                    <div class="header-hero--left_top">
+                        <p class="header-hero--left_top__title">We are The Brilliants in Terms Of Publishing.</p>
+                        <p class="header-hero--left_top__call">Publish your bestseller with free strategy call.</p>
+                    </div>
+                    <div class="header-hero--left_bottom">
+                        <a href="#service" class="header-hero--left_bottom__first" style="outline: none;">service
+                            &#x2192;</a>
+                        <a href="#" class="header-hero--left_bottom__second" style="outline: none;">Book Now
+                            &#x2192;</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="container">
+        <div class="service">
+
+            <div class="service-head">
+                <h4>Services</h4>
+                <h2>What we offer</h2>
+                <p>Partner with us to publish, promote, and amplify your book. From manuscript to marketplace, we help
+                    authors reach readers everywhere.</p>
+            </div>
+
+
+            <div class="service-bottom">
+                <div class="service-bottom--icon">
+                    <div class="service-bottom--icon_logo">
+                        <img src="img/svg/searchengine.svg" alt="search engine optimization">
+                    </div>
+                    <div class="service-bottom--icon_name">Seo</div>
+                </div>
+                <div class="service-bottom--icon">
+                    <div class="service-bottom--icon_logo">
+                        <img src="img/svg/piechart.svg" alt="Reporting">
+                    </div>
+                    <div class="service-bottom--icon_name">Reporting</div>
+                </div>
+                <div class="service-bottom--icon">
+                    <div class="service-bottom--icon_logo">
+                        <img src="img/svg/facebook.svg" alt="facebook advertisement">
+                    </div>
+                    <div class="service-bottom--icon_name">Facebook Ads</div>
+                </div>
+                <div class="service-bottom--icon">
+                    <div class="service-bottom--icon_logo">
+                        <img src="img/svg/tv.svg" alt="Television advertisement">
+                    </div>
+                    <div class="service-bottom--icon_name">AD campaigns</div>
+                </div>
+                <div class="service-bottom--icon">
+                    <div class="service-bottom--icon_logo">
+                        <img src="img/svg/chart.svg" alt="Growth strategy">
+                    </div>
+                    <div class="service-bottom--icon_name">Growth strategy</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+        <div class="box-head">
+            <h4>Notice</h4>
+            <p>Partner with us to publish, promote, and amplify your book. From manuscript to marketplace, we help
+                authors reach readers everywhere.</p>
+        </div>
+
+
+        <div class="box">
+            <div class=" box-item">
+                <h1>haeding</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat eos sed aperiam? Atque,
+                    repellendus dignissimos? Officia mollitia temporibus sint eaque necessitatibus, enim, nobis
+                    adipisci,
+                    quaerat consequatur architecto repellat cupiditate!</p>
+                <button class="btn-secondary">See More</button>
+
+            </div>
+            <div class=" box-item">
+                <h1>haeding</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat eos sed aperiam? Atque,
+                    repellendus dignissimos? Officia mollitia temporibus sint eaque necessitatibus, enim, nobis
+                    adipisci,
+                    quaerat consequatur architecto repellat cupiditate!</p>
+                <button class="btn-secondary">See More</button>
+
+            </div>
+            <div class=" box-item">
+                <h1>haeding</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat eos sed aperiam? Atque,
+                    repellendus dignissimos? Officia mollitia temporibus sint eaque necessitatibus, enim, nobis
+                    adipisci,
+                    quaerat consequatur architecto repellat cupiditate!</p>
+                <button class="btn-secondary">See More</button>
+
+            </div>
+            <div class=" box-item">
+                <h1>haeding</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat eos sed aperiam? Atque,
+                    repellendus dignissimos? Officia mollitia temporibus sint eaque necessitatibus, enim, nobis
+                    adipisci,
+                    quaerat consequatur architecto repellat cupiditate!</p>
+                <button class="btn-secondary">See More</button>
+
+            </div>
+            <div class=" box-item">
+                <h1>haeding</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat eos sed aperiam? Atque,
+                    repellendus dignissimos? Officia mollitia temporibus sint eaque necessitatibus, enim, nobis
+                    adipisci,
+                    quaerat consequatur architecto repellat cupiditate!</p>
+                <button class="btn-secondary">See More</button>
+            </div>
+            <div class=" box-item">
+                <h1>haeding</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat eos sed aperiam? Atque,
+                    repellendus dignissimos? Officia mollitia temporibus sint eaque necessitatibus, enim, nobis
+                    adipisci,
+                    quaerat consequatur architecto repellat cupiditate!</p>
+                <button class="btn-secondary">See More</button>
+
+            </div>
+            <div class=" box-item">
+                <h1>haeding</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat eos sed aperiam? Atque,
+                    repellendus dignissimos? Officia mollitia temporibus sint eaque necessitatibus, enim, nobis
+                    adipisci,
+                    quaerat consequatur architecto repellat cupiditate!</p>
+                <button class="btn-secondary">See More</button>
+
+            </div>
+
+            <div class=" box-item">
+                <h1>haeding</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat eos sed aperiam? Atque,
+                    repellendus dignissimos? Officia mollitia temporibus sint eaque necessitatibus, enim, nobis
+                    adipisci,
+                    quaerat consequatur architecto repellat cupiditate!</p>
+                <button class="btn-secondary">See More</button>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <div class="banner second-banner">helo</div>
+
+
+
+    <!-- map -->
+
+    <!-- <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.4625541163605!2d85.33841457607765!3d27.703001276185155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19e436071cf1%3A0xd8380eb600e7e9af!2smurarkey%20academy!5e0!3m2!1sen!2snp!4v1713253796153!5m2!1sen!2snp"
+        width="100%" height="400" style="border:0;" allowFullScreen={true} loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"></iframe> -->
+
+
+    <div class="container">
+
+        <div class="location-head">
+            <h4>Contact Us</h4>
+        </div>
+    </div>
+
+
+
+    <div class="container" style="padding: 2rem 0rem;">
+
+
+        <div class="contact">
+            <form class="contact-main">
+                <input type="text" placeholder="Name" class="form-main--input">
+                <input type="email" placeholder="Email" class="form-main--input">
+                <textarea placeholder="Message" class="form-main--textarea"></textarea>
+                <button class="form-main--button">Submit</button>
+            </form>
+
+
+
+            <div class="contact-map">
+                <iframe width="100%" height="100%" style="border:0;" loading="lazy" allowFullScreen
+                    src="https://maps.google.com/maps?q=Eiffel%20Tower%2C%20Paris&t=&z=14&ie=UTF8&iwloc=&output=embed">
+                </iframe>
+
+
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <div class="container">
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer-main">
+            <div class="footer-main--top">
+                <h1>
+                    We are Changing Publishing.
+                </h1>
+                <h5>Sign up today and see how we can help you transform your book to life.</h5>
+                <a href="#">Get started &#x2192;</a>
+            </div>
+            <div class="footer-main--bottom">
+                <div class="footer-main--bottom_contact">
+                    <div class="footer-main--bottom_contact__left">
+                        <div class="footer-main--bottom_contact__left-phone">
+                            <h5>CONTACT</h5>
+                            <p>01-12345678</p>
+                        </div>
+                        <div class="footer-main--bottom_contact__left-email">
+                            <h5>EMAIL</h5>
+                            <p>example123@gmail.com</p>
+                        </div>
+
+
+                    </div>
+                    <div class="footer-main--bottom_contact__right">
+                        <h5>Address</h5>
+                        <p>Balaju, Kathmandu</p>
+                    </div>
+
+                </div>
+
+
+
+                <div class="footer-main--bottom_links">
+                    Copyright © 2026 Namrata.co.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
