@@ -1,6 +1,5 @@
 .banner {
     height: 500px;
-    background-color: rgb(162, 89, 255);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -10,7 +9,7 @@
 }
 
 .second-banner {
-    background-image: url('/img/book.jpg');
+    background-image: url('img/book.jpg') !important;
     background-size: cover;
     background-position: center;
 }
