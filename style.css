@@ -171,17 +171,19 @@
 
     .header-hero {
         width: 90%;
-        background-position: top;
+        background-position: center;
         padding-top: 0.1rem;
     }
 
     .header-hero--left {
-        width: 70%;
+        width: 80%;
     }
 
     .hero-section {
         height: 300px;
         clip-path: polygon(100% 0, 100% 69%, 77% 94%, 0 83%, 0 0);
+        background-position: right;
+
 
     }
 
@@ -197,7 +199,7 @@
     .header-hero--left_top__call {
         font-size: 0.6rem;
         font-weight: 300;
-        padding: 5px 0px;
+        padding: 1px 0px;
     }
 
     .header-hero--left_bottom__first {
